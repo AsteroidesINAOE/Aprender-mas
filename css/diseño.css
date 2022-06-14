@@ -226,11 +226,15 @@ img {
   border-image:white;
   border-width: 1px;
   border-style:solid;
-} 
+}
+
+.videos_pequeños {
+  display:none;
+}
 
 .capa {
   background: #131313;
-  height: 40px;
+  height: 55px;
   position: relative;
   padding: 0;
 }
@@ -427,8 +431,15 @@ label {
     .indice {
       display:none;
     }
-      
+    
+    .videos_grandes {
+      display:none;
     }
+  
+    .videos_pequeños {
+    }
+  
+}
 
 @media screen and (max-width: 400px){
     .modal-content {

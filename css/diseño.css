@@ -437,6 +437,7 @@ label {
     }
   
     .videos_pequeños {
+      display:block;
     }
   
 }

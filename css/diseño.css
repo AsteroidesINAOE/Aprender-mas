@@ -1,47 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 /*Partes principales */
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Raleway';
-  text-decoration: none;
-}
-body{
-  background-color: #000000;
-}
-header{
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: rgb(0, 0, 0);
-}
-
-/* Título de la página */
-.titulo {
-  display: flex;
-  justify-content: center;
-  background: black;
-  color: #066DCC;
-  font-weight: bold;
-  padding: 33px;
-  font-size: 52px
-}
-/*HEADER SUPERIOR*/
-.parte_superior{
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  padding: 0px;
-}
-/* Logo INAOE */
-.logoimg {
-  display: flex;
-  height: 110px;
-  align-items: center;
-}
-
-/* Menú principal */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    text-decoration: none;
+  }
+  body{
+    background-color: #000000;
+  }
+  header{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+  }
+  
+  /* Título de la página */
+  .titulo {
+    display: flex;
+    justify-content: center;
+    background: black;
+        color: #066DCC;
+        font-weight: bold;
+        padding: 33px;
+        font-size: 52px
+      }
+  /*HEADER SUPERIOR*/
+  .parte_superior{
+        max-width: 1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+      }
+  /* Logo INAOE */
+  .logoimg {
+        display: flex;
+        height: 110px;
+        align-items: center;
+      }
+      
+      /* Menú principal */
   /*BARRA MENU*/
   .container__menu{
     width: 100%;
@@ -50,7 +51,6 @@ header{
     top: 0;
     background: #023877;
     padding: 0px 25px;
-    z-index:3;
   }
   .menu{
     max-width: 1200px;
@@ -69,7 +69,7 @@ header{
     list-style: none;
     position: relative;
   }
-
+  
   /*ICONO HOME*/
   nav > ul > li:first-child > a{
     background-image: url(../img/home.png);
@@ -104,7 +104,7 @@ header{
     background-color: #0074C7;
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
   }
-
+  
   /*SUBMENU*/
   nav ul li ul{
     width: 200px;
@@ -154,7 +154,7 @@ header{
     font-size: 13px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   }
-
+  
   /*ELEMENTOS RESPONSIVOS*/
   .icon__menu{
     font-size: 26px;
@@ -173,45 +173,46 @@ header{
   #check__menu{
     display: none;
   }
-
-/* Menú de la página  2*/
-.container2 {
-  display: flex;
-  flex-flow: row;
-  visibility: visible;
-}
-
-.indice {
-  background: #54ABFA;
-  margin: 50px 10px 0 10px;
-  width: 35%;
-  height: 100%;
-  padding: 20px 60px 20px 20px;
-  border-radius: 3px;
-  position: sticky;
-  top: 80px;
-  z-index: 2;
-  display: block;
-  box-shadow: 5px 5px 4px #162635, -5px -5px 4px #6b8196;
-}
-
-a {
-  color: #0099FF;
-}
-
-a.contenido {
-  color: black;
-}
-
-.indice .indice_titulo {
-  font-size: 20px;
-  color: black;
-  padding: 0 0 0 10px;
-}
-
-.indice .indice_lista {
-  padding: 0 0 0 30px;
-}
+  
+      /* Menú de la página  2*/
+      .container2 {
+        display: flex;
+        flex-flow: row;
+        visibility: visible;
+      }
+  
+      .indice {
+        background: #54ABFA;
+        margin: 50px 10px 0 10px;
+        width: 35%;
+        height: 100%;
+        padding: 20px 60px 20px 20px;
+        border-radius: 3px;
+        position: sticky;
+        top: 55px;
+        z-index: 2;
+        display: block;
+        box-shadow: 5px 5px 4px #162635, -5px -5px 4px #6b8196;
+      }
+  
+      a {
+        color: #0099FF;
+      }
+  
+      a.contenido {
+        color: black;
+      }
+  
+      .indice .indice_titulo {
+        font-size: 20px;
+        color: black;
+        padding: 0 0 0 10px;
+      }
+  
+      .indice .indice_lista {
+        padding: 0 0 0 30px;
+      }
+  
 
 /* Texto general */
 .texto {
